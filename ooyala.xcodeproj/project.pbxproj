@@ -9,11 +9,24 @@
 /* Begin PBXBuildFile section */
 		BC69BA341C91233E000DBC35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC69BA331C91233E000DBC35 /* main.m */; };
 		BC69BA371C91233E000DBC35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC69BA361C91233E000DBC35 /* AppDelegate.m */; };
-		BC69BA3A1C91233E000DBC35 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC69BA391C91233E000DBC35 /* MasterViewController.m */; };
-		BC69BA3D1C91233E000DBC35 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC69BA3C1C91233E000DBC35 /* DetailViewController.m */; };
 		BC69BA401C91233E000DBC35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC69BA3E1C91233E000DBC35 /* Main.storyboard */; };
 		BC69BA421C91233E000DBC35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC69BA411C91233E000DBC35 /* Assets.xcassets */; };
 		BC69BA451C91233E000DBC35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC69BA431C91233E000DBC35 /* LaunchScreen.storyboard */; };
+		BC69BA4D1C912355000DBC35 /* OoyalaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC69BA4C1C912355000DBC35 /* OoyalaSDK.framework */; };
+		BC69BA4F1C912369000DBC35 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC69BA4E1C912369000DBC35 /* SystemConfiguration.framework */; };
+		BC69BA511C91236E000DBC35 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC69BA501C91236E000DBC35 /* Security.framework */; };
+		BC69BA531C912373000DBC35 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC69BA521C912373000DBC35 /* QuartzCore.framework */; };
+		BC69BA551C912377000DBC35 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC69BA541C912377000DBC35 /* MediaPlayer.framework */; };
+		BC69BA571C91237E000DBC35 /* MediaAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC69BA561C91237E000DBC35 /* MediaAccessibility.framework */; };
+		BC69BA591C912383000DBC35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC69BA581C912383000DBC35 /* Foundation.framework */; };
+		BC69BA5B1C912388000DBC35 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BC69BA5A1C912388000DBC35 /* libc++.tbd */; };
+		BC69BA5D1C91238D000DBC35 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BC69BA5C1C91238D000DBC35 /* libxml2.tbd */; };
+		BC69BA5F1C912396000DBC35 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC69BA5E1C912396000DBC35 /* CoreText.framework */; };
+		BC69BA611C91239A000DBC35 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC69BA601C91239A000DBC35 /* CoreMedia.framework */; };
+		BC69BA631C9123A0000DBC35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC69BA621C9123A0000DBC35 /* CoreGraphics.framework */; };
+		BC69BA651C9123A4000DBC35 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC69BA641C9123A4000DBC35 /* CFNetwork.framework */; };
+		BC69BA671C9123A8000DBC35 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC69BA661C9123A8000DBC35 /* AVFoundation.framework */; };
+		BC69BA6A1C9123BE000DBC35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC69BA691C9123BE000DBC35 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +34,26 @@
 		BC69BA331C91233E000DBC35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC69BA351C91233E000DBC35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BC69BA361C91233E000DBC35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BC69BA381C91233E000DBC35 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		BC69BA391C91233E000DBC35 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		BC69BA3B1C91233E000DBC35 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		BC69BA3C1C91233E000DBC35 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		BC69BA3F1C91233E000DBC35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC69BA411C91233E000DBC35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC69BA441C91233E000DBC35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC69BA461C91233E000DBC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC69BA4C1C912355000DBC35 /* OoyalaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OoyalaSDK.framework; sourceTree = "<group>"; };
+		BC69BA4E1C912369000DBC35 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BC69BA501C91236E000DBC35 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BC69BA521C912373000DBC35 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BC69BA541C912377000DBC35 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		BC69BA561C91237E000DBC35 /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = System/Library/Frameworks/MediaAccessibility.framework; sourceTree = SDKROOT; };
+		BC69BA581C912383000DBC35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC69BA5A1C912388000DBC35 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		BC69BA5C1C91238D000DBC35 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		BC69BA5E1C912396000DBC35 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		BC69BA601C91239A000DBC35 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		BC69BA621C9123A0000DBC35 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC69BA641C9123A4000DBC35 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BC69BA661C9123A8000DBC35 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BC69BA681C9123BE000DBC35 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC69BA691C9123BE000DBC35 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +61,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC69BA671C9123A8000DBC35 /* AVFoundation.framework in Frameworks */,
+				BC69BA651C9123A4000DBC35 /* CFNetwork.framework in Frameworks */,
+				BC69BA631C9123A0000DBC35 /* CoreGraphics.framework in Frameworks */,
+				BC69BA611C91239A000DBC35 /* CoreMedia.framework in Frameworks */,
+				BC69BA5F1C912396000DBC35 /* CoreText.framework in Frameworks */,
+				BC69BA5D1C91238D000DBC35 /* libxml2.tbd in Frameworks */,
+				BC69BA5B1C912388000DBC35 /* libc++.tbd in Frameworks */,
+				BC69BA591C912383000DBC35 /* Foundation.framework in Frameworks */,
+				BC69BA571C91237E000DBC35 /* MediaAccessibility.framework in Frameworks */,
+				BC69BA551C912377000DBC35 /* MediaPlayer.framework in Frameworks */,
+				BC69BA531C912373000DBC35 /* QuartzCore.framework in Frameworks */,
+				BC69BA511C91236E000DBC35 /* Security.framework in Frameworks */,
+				BC69BA4F1C912369000DBC35 /* SystemConfiguration.framework in Frameworks */,
+				BC69BA4D1C912355000DBC35 /* OoyalaSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +84,20 @@
 		BC69BA261C91233E000DBC35 = {
 			isa = PBXGroup;
 			children = (
+				BC69BA661C9123A8000DBC35 /* AVFoundation.framework */,
+				BC69BA641C9123A4000DBC35 /* CFNetwork.framework */,
+				BC69BA621C9123A0000DBC35 /* CoreGraphics.framework */,
+				BC69BA601C91239A000DBC35 /* CoreMedia.framework */,
+				BC69BA5E1C912396000DBC35 /* CoreText.framework */,
+				BC69BA5C1C91238D000DBC35 /* libxml2.tbd */,
+				BC69BA5A1C912388000DBC35 /* libc++.tbd */,
+				BC69BA581C912383000DBC35 /* Foundation.framework */,
+				BC69BA561C91237E000DBC35 /* MediaAccessibility.framework */,
+				BC69BA541C912377000DBC35 /* MediaPlayer.framework */,
+				BC69BA521C912373000DBC35 /* QuartzCore.framework */,
+				BC69BA501C91236E000DBC35 /* Security.framework */,
+				BC69BA4E1C912369000DBC35 /* SystemConfiguration.framework */,
+				BC69BA4C1C912355000DBC35 /* OoyalaSDK.framework */,
 				BC69BA311C91233E000DBC35 /* ooyala */,
 				BC69BA301C91233E000DBC35 /* Products */,
 			);
@@ -63,11 +116,9 @@
 			children = (
 				BC69BA351C91233E000DBC35 /* AppDelegate.h */,
 				BC69BA361C91233E000DBC35 /* AppDelegate.m */,
-				BC69BA381C91233E000DBC35 /* MasterViewController.h */,
-				BC69BA391C91233E000DBC35 /* MasterViewController.m */,
-				BC69BA3B1C91233E000DBC35 /* DetailViewController.h */,
-				BC69BA3C1C91233E000DBC35 /* DetailViewController.m */,
 				BC69BA3E1C91233E000DBC35 /* Main.storyboard */,
+				BC69BA681C9123BE000DBC35 /* ViewController.h */,
+				BC69BA691C9123BE000DBC35 /* ViewController.m */,
 				BC69BA411C91233E000DBC35 /* Assets.xcassets */,
 				BC69BA431C91233E000DBC35 /* LaunchScreen.storyboard */,
 				BC69BA461C91233E000DBC35 /* Info.plist */,
@@ -115,6 +166,11 @@
 				TargetAttributes = {
 					BC69BA2E1C91233E000DBC35 = {
 						CreatedOnToolsVersion = 7.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -154,10 +210,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC69BA6A1C9123BE000DBC35 /* ViewController.m in Sources */,
 				BC69BA371C91233E000DBC35 /* AppDelegate.m in Sources */,
-				BC69BA3A1C91233E000DBC35 /* MasterViewController.m in Sources */,
 				BC69BA341C91233E000DBC35 /* main.m in Sources */,
-				BC69BA3D1C91233E000DBC35 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +324,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ooyala/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.ooyala;
@@ -280,6 +340,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ooyala/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.ooyala;
