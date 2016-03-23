@@ -23,12 +23,14 @@ const NSString *embedCode = @"<#EmbedCode#>";
 
 @interface ViewController ()
 @property (nonatomic, strong) OOOoyalaPlayerViewController *playerViewController;
+@property (nonatomic, assign) BOOL shouldPlaying;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.shouldPlaying = YES;
     NSError *error = nil;
     [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:&error];
     if (error){
@@ -59,8 +61,15 @@ const NSString *embedCode = @"<#EmbedCode#>";
 - (void)notificationHandler:(NSNotification *)noti{
     NSString *name = noti.name;
     if ([name isEqualToString:OOOoyalaPlayerStateChangedNotification]) {
-        if (self.playerViewController.player.state == OOOoyalaPlayerStateReady) {
+        OOOoyalaPlayerState state = self.playerViewController.player.state;
+        if (state == OOOoyalaPlayerStateReady) {
             [self.playerViewController.player play];
+        }else if (state == OOOoyalaPlayerStatePaused){
+            if (self.shouldPlaying) {
+                [self.playerViewController.player play];
+            }else{
+                [self.playerViewController.player pause];
+            }
         }
     }
     NSLog(@"notification name:%@",name);
